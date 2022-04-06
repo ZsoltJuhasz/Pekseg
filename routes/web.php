@@ -23,7 +23,7 @@ use Illuminate\Support\Facades\Route;
 Route::middleware("auth")->group(function (){
     Route::get("/new-bakery", [BakeryController::class, "create"]);
     Route::get("/edit-bakery/{id}", [BakeryController::class, "edit"]);
-    Route::get("/delete-bakery/{id}", [BakeryController::class], "destroy");
+    Route::get("/delete-bakery/{id}", [BakeryController::class, "destroy"]);
 });
 
 Route::get("/",[BakeryController::class, "index"]);

@@ -38,7 +38,7 @@
                                 <td>{{ $bakery->price }}</td>
                                 <td>
                                     <a class="btn btn-outline-primary btn-sm" href="/edit-bakery/{{ $bakery->id }}">Szerkesztés</a>
-                                    <a class="btn btn-outline-danger btn-sm" href="/delete-worker/{{ $bakery-> id }}">Törlés</a>
+                                    <a class="btn btn-outline-danger btn-sm" href="/delete-bakery/{{ $bakery->id }}">Törlés</a>
                                 </td>
                             </tr>
                             @endforeach
