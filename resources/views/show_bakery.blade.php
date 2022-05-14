@@ -26,7 +26,7 @@
             </table>
         </div>
         <div class="col-2">
-            <a class="btn btn-primary" href="/new-bakery">Új dolgozó</a>
+            <a class="btn btn-primary" href="/new-bakery">Új péksütemény</a>
         </div>
     </div>
 </div>
